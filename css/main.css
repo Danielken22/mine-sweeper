@@ -8,9 +8,8 @@ table{
     background-color: lightgray;
     margin: 0 auto;
     
-
     td{
-        display: hide
+        
         size: 500px;
         border: 5px solid gray;
         background-color: grey;
@@ -26,4 +25,15 @@ button{
     border-radius: 10px;
     
     text-align: center;
+}
+.level-btn{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    margin: 0 auto;
+    border: 5px solid black;
+    box-shadow: 2px lightgray;
+    font-size: large;
+    color: whitesmoke
 }
