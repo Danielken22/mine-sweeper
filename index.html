@@ -8,21 +8,10 @@
 </head>
 <body onload="onInit()">
     <h1>MineSweeper</h1>
-    <div class="level-btns">
-        <div class="level-btn" data-size="4" data-mines="2" onclick="setDifficulty(this)">Beginner</div>
-        <div class="level-btn" data-size="8" data-mines="12" onclick="setDifficulty(this)">Medium</div>
-        <div class="level-btn" data-size="12" data-mines="30" onclick="setDifficulty(this)">Expert</div>
+    <table class="game-board"></table>
+    <div class="btn-menu">
+
     </div>
-    <div>
-        <button onclick="onInit()"><span class="reset-btn">😀</span></button>
-    </div> 
-    <div>
-        <p>Mines:<span class="mines-on-board"></span></p>
-    </div>
-    <div class="MineSweeper">
-        <table class="game-board"></table>
-    </div>
-    <!-- 1. Add a footer with your name  -->
     <footer>Daniel kendis</footer>
     <script src="js/main.js"></script>
 </body>
